@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemList"
+        android:icon="@drawable/common_google_signin_btn_icon_dark"
+        android:title="item_list"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/itemHistory"
+        android:icon="@drawable/common_google_signin_btn_icon_dark"
+        android:title="item_history"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/itemSetting"
+        android:icon="@drawable/common_google_signin_btn_icon_dark"
+        android:title="item_setting"
+        app:showAsAction="always"/>
+</menu>

@@ -37,6 +37,7 @@ dependencies {
 
     // support library
     implementation deps.supportLib.compat
+    implementation deps.supportLib.design
     implementation deps.supportLib.constraint
 
     // android architecture component

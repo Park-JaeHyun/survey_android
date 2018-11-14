@@ -21,6 +21,7 @@ ext.deps = [
 
         supportLib: [
                 compat    : "com.android.support:appcompat-v7:${ver.supportLib}",
+                design    : "com.android.support:design:${ver.supportLib}",
                 constraint: 'com.android.support.constraint:constraint-layout:1.1.3'
         ],
 
@@ -58,3 +59,4 @@ ext.deps = [
                 espressoCore: "com.android.support.test.espresso:espresso-core:${ver.espresso}"
         ]
 ]
+
